@@ -28,6 +28,7 @@
 
 .hnbt {
   margin-bottom: 0 !important;
+  text-decoration: underline;
 }
 
 .row {
@@ -61,6 +62,8 @@
 
 .hn1 {
   margin-bottom: 5px !important;
+  text-underline-offset: 2px;
+  text-decoration: underline;
 }
 
 .hn2 {
