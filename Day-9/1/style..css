@@ -1,0 +1,35 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+.status {
+  margin-top: 2rem;
+  text-align: center;
+  background-color: blanchedalmond;
+  width: 200px;
+  position: absolute;
+  margin-left: 200px;
+}
+.container {
+  width: 30rem;
+  margin: 10rem auto;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.seat {
+  background-color: brown;
+  border: solid 1px black;
+  height: 1.5rem;
+  flex-basis: 5%;
+}
+.settled {
+  background-color: rgb(228, 175, 162);
+}
