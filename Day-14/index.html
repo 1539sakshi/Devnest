@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .myDiv1 {
+      width: 350px;
+      height: 85px;
+      border: 5px solid black;
+      padding: 10px;
+    }
+    
+    
+    img{
+      padding: 10px;
+    }
+    </style>
+</head>
+<body>
+  
+  <form>
+
+  <!-- Trigers on a mouse click -->
+    <input type="button" onclick="clickevent()" value="What is your name"/>
+
+  <!-- Trigers when the window get focus -->
+    <p>Write here something , to see the focusevent event working</p>
+    <input type="text" id="input1" onfocus="focusevent()"/> 
+      
+  <!-- Trigers when the key is pressed -->
+    <p>Write here something , to see the keydownevent event working</p>
+    <input type="text" id="input1" onkeydown="keydownevent()"/>
+
+    </form>
+
+  <!-- Trigers on hovering -->
+    <p onmouseover="mouseoverevent()"> Hover on me</p>
+
+
+  <!-- Drag and Drop  -->
+  <p class="drag">Drag the below image and drop it in the box </p>
+
+<div class="myDiv1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+<img id="myDiv2" src="/Day-14/dot.png" draggable="true" ondragstart="drag(event)" width="336" height="69">
+
+  <script src="/Day-14/script.js"></script>
+</body>
+</html>
