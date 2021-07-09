@@ -1,0 +1,19 @@
+.cont
+{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 150px;
+}
+.card img{
+  width: 100%;
+}
+.card
+{
+    width: 250px;
+    padding: 10px ;
+    border: 2px solid;
+    box-shadow: 5px 5px 5px 5px #655b5b;
+    align-items: center;
+}
